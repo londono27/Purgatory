@@ -8,14 +8,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - -1
+  - 
   - Water
   - UI
-  - Piso
-  - 
-  - 
-  - 
-  - 
+  - Lejano
+  - Medio
+  - Enemigos
+  - Jugador
+  - Plataforma
   - 
   - 
   - 
@@ -38,9 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Fondo
-    uniqueID: 270997067
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 3917224219
+    locked: 0
+  - name: Medio
+    uniqueID: 477882549
+    locked: 0
+  - name: Enemigos
+    uniqueID: 1158779047
+    locked: 0
+  - name: Jugador
+    uniqueID: 270997067
+    locked: 0
+  - name: Plataforma
+    uniqueID: 3678286399
     locked: 0
