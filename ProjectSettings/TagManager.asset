@@ -47,12 +47,12 @@ TagManager:
   - name: Medio
     uniqueID: 477882549
     locked: 0
-  - name: Enemigos
-    uniqueID: 1158779047
+  - name: Plataforma
+    uniqueID: 3678286399
     locked: 0
   - name: Jugador
     uniqueID: 270997067
     locked: 0
-  - name: Plataforma
-    uniqueID: 3678286399
+  - name: Enemigos
+    uniqueID: 1158779047
     locked: 0
