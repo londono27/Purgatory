@@ -7,10 +7,14 @@ public class PlayerRespawn : MonoBehaviour
 {
     public GameObject[] hearts;
     private int life;
-
+    private float checkPointPositionX, checkPointPositionY;
     private void Start()
     {
         life = hearts.Length;
+        if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
+        {
+            transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
+        }
     }
 
     private void CheckLife()
@@ -18,7 +22,7 @@ public class PlayerRespawn : MonoBehaviour
         if (life < 1)
         {
             Destroy(hearts[0].gameObject);
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         else if (life < 2)
         {
