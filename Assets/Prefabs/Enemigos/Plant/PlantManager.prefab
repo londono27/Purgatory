@@ -413,7 +413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider2D: {fileID: 8351766966186545665}
   animator: {fileID: 8351766966186545670}
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 8351766966186545671}
   destroyParticle: {fileID: 8351766965549453827}
   jumpForce: 2.5
   lifes: 2

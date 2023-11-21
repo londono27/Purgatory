@@ -8,6 +8,8 @@ public class PlayerRespawn : MonoBehaviour
     public GameObject[] hearts;
     private int life;
     private float checkPointPositionX, checkPointPositionY;
+
+    public Animator animator;
     private void Start()
     {
         life = hearts.Length;
@@ -23,16 +25,17 @@ public class PlayerRespawn : MonoBehaviour
         {
             Destroy(hearts[0].gameObject);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            animator.Play("Hit");
         }
         else if (life < 2)
         {
             Destroy(hearts[1].gameObject);
-
+            animator.Play("Hit");
         }
         else if (life < 3)
         {
             Destroy(hearts[2].gameObject);
-
+            animator.Play("Hit");
         }
     }
 
