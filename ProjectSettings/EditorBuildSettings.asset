@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Negaci\xF3n.unity"
     guid: db7a5e124458c4243ab8785b73ea0633
+  - enabled: 1
+    path: Assets/Scenes/Ira.unity
+    guid: a540803a7f839e84fbcbede4e811f973
   m_configObjects: {}
