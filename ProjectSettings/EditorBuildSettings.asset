@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
@@ -17,4 +18,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ira.unity
     guid: a540803a7f839e84fbcbede4e811f973
+<<<<<<< HEAD
+=======
+=======
+  m_Scenes: []
+>>>>>>> 7753e9ec824805c0d96416ebbb25dafadb2a397d
+>>>>>>> c375c6908fdded59ef94d7108e2e2e94329e016b
   m_configObjects: {}
