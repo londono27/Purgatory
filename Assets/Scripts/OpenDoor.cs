@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class OpenDoor : MonoBehaviour
 {
     public Text text;
-    public string levelName;
+    public int levelName;
     private bool inDoor = false;
     private float doorTime = 2.5f;
     private float startTime = 2.5f;
@@ -38,7 +38,7 @@ public class OpenDoor : MonoBehaviour
 
         if(doorTime <= 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(levelName);
         }
 
         if (inDoor && Input.GetKey("e")){
