@@ -8,7 +8,6 @@ public class PlayerRespawn : MonoBehaviour
     public GameObject[] hearts;
     private int life;
     private float checkPointPositionX, checkPointPositionY;
-
     public Animator animator;
     private void Start()
     {
@@ -43,5 +42,14 @@ public class PlayerRespawn : MonoBehaviour
     {
         life--;
         CheckLife();
+    }
+    public void PlayerDamagedFinal(float presiona)
+    {
+        if(presiona<0){
+            SceneManager.LoadScene(0);
+        }else{
+            life=life-3;
+            CheckLife();
+        }
     }
 }

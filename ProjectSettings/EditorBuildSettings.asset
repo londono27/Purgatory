@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 762445bdc5c7a334a86494a104fe6a3d
@@ -15,6 +12,10 @@ EditorBuildSettings:
     path: "Assets/Scenes/Negaci\xF3n.unity"
     guid: db7a5e124458c4243ab8785b73ea0633
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Ira.unity
+=======
+    path: Assets/Scenes/SampleScene.unity
+>>>>>>> 965c50cefb2d005f3702f91fe548cdd6024438e4
     guid: a540803a7f839e84fbcbede4e811f973
   m_configObjects: {}
