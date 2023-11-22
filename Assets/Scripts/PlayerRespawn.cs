@@ -5,11 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class PlayerRespawn : MonoBehaviour
 {
+    public static PlayerRespawn Instance;
     public GameObject[] hearts;
     private int life;
     private float checkPointPositionX, checkPointPositionY;
     public Animator animator;
-    private void Start()
+    private void Awake()
+    {
+        Instance = this;
+    }
+        private void Start()
     {
         life = hearts.Length;
         if (PlayerPrefs.GetFloat("checkPointPositionX") != 0)
@@ -22,18 +27,18 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (life < 1)
         {
-            Destroy(hearts[0].gameObject);
+            Destroy(hearts[0]);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             animator.Play("Hit");
         }
         else if (life < 2)
         {
-            Destroy(hearts[1].gameObject);
+            Destroy(hearts[1]);
             animator.Play("Hit");
         }
         else if (life < 3)
         {
-            Destroy(hearts[2].gameObject);
+            Destroy(hearts[2]);
             animator.Play("Hit");
         }
     }
@@ -48,7 +53,7 @@ public class PlayerRespawn : MonoBehaviour
         if(presiona<0){
             SceneManager.LoadScene(0);
         }else{
-            life=life-3;
+            life -= 3;
             CheckLife();
         }
     }

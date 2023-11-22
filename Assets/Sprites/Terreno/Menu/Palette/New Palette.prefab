@@ -466,7 +466,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -476,7 +476,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -496,7 +496,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -506,7 +506,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -634,15 +634,15 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 95dbdcf5da70df040ad27ed59e772c07, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
-    m_Data: {fileID: 1779448118, guid: 242063a262634864f922f32bb86d93f3, type: 3}
+    m_Data: {fileID: -1082071316, guid: 242063a262634864f922f32bb86d93f3, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 875643888, guid: 242063a262634864f922f32bb86d93f3, type: 3}
+    m_Data: {fileID: 1779448118, guid: 242063a262634864f922f32bb86d93f3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 529920867, guid: 242063a262634864f922f32bb86d93f3, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 1128497920, guid: 242063a262634864f922f32bb86d93f3, type: 3}
+    m_Data: {fileID: 875643888, guid: 242063a262634864f922f32bb86d93f3, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1082071316, guid: 242063a262634864f922f32bb86d93f3, type: 3}
+    m_Data: {fileID: 1128497920, guid: 242063a262634864f922f32bb86d93f3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -828076844, guid: 242063a262634864f922f32bb86d93f3, type: 3}
   - m_RefCount: 1
@@ -867,11 +867,11 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7890724134525607483}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 0.5, y: 0.5, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &3333509647799466393
+--- !u!114 &7827616296366644213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
