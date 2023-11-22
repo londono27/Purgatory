@@ -4,24 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 762445bdc5c7a334a86494a104fe6a3d
   - enabled: 1
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: 8e59e3825717ef945b24378645b61a6d
+  - enabled: 1
     path: "Assets/Scenes/Negaci\xF3n.unity"
     guid: db7a5e124458c4243ab8785b73ea0633
-  - enabled: 1
-    path: Assets/Scenes/Ira.unity
-    guid: a540803a7f839e84fbcbede4e811f973
-<<<<<<< HEAD
-=======
-=======
-  m_Scenes: []
->>>>>>> 7753e9ec824805c0d96416ebbb25dafadb2a397d
->>>>>>> c375c6908fdded59ef94d7108e2e2e94329e016b
   m_configObjects: {}
