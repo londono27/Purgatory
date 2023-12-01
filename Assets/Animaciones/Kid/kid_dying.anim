@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mujer_llorar
+  m_Name: kid_dying
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 9ffdb15362eeb3c4f9c7dbaa2ce497fc, type: 3}
+      value: {fileID: 21300000, guid: a1e327477fa828241ad2af438fb95a38, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300000, guid: 1c65984ab7ba73d4eb09d78a0aef68fc, type: 3}
+      value: {fileID: 21300000, guid: 532b55568944fe9488d834bcb7bcd013, type: 3}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 35fc272655498eb429670498c4275244, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 965a2350899d70542b00be74c8edef52, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,14 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 9ffdb15362eeb3c4f9c7dbaa2ce497fc, type: 3}
-    - {fileID: 21300000, guid: 1c65984ab7ba73d4eb09d78a0aef68fc, type: 3}
+    - {fileID: 21300000, guid: a1e327477fa828241ad2af438fb95a38, type: 3}
+    - {fileID: 21300000, guid: 532b55568944fe9488d834bcb7bcd013, type: 3}
+    - {fileID: 21300000, guid: 35fc272655498eb429670498c4275244, type: 3}
+    - {fileID: 21300000, guid: 965a2350899d70542b00be74c8edef52, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.16666667
+    m_StopTime: 0.33333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
