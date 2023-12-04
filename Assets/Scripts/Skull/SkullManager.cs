@@ -27,11 +27,13 @@ public class FruitManager : MonoBehaviour
     }
     public void AllFruitsCollected()
     {
-        if(transform.childCount == 0)
+        if(transform.childCount == 13)
         {
             Debug.Log("No quedan frutas");
             //levelCleared.gameObject.SetActive(true);
             transition.gameObject.SetActive(true);
+            ContadorNiveles.Instance.SetNivelesC(1);
+            Debug.Log(ContadorNiveles.Instance.GetNivelesC());
             Invoke("ChangeScene", 1);
         }
     }
