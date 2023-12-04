@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class OpenDoor : MonoBehaviour
 {
-    public Text text;
+    
     public int levelName;
     private bool inDoor = false;
     private float doorTime = 2.5f;
@@ -14,7 +14,7 @@ public class OpenDoor : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            text.gameObject.SetActive(true);
+          
             inDoor = true;
             Debug.Log(inDoor);
         }
@@ -22,7 +22,7 @@ public class OpenDoor : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        text.gameObject.SetActive(false);
+     
         inDoor = false;
 
         doorTime = startTime;
