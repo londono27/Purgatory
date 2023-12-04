@@ -31,9 +31,12 @@ public class OpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inDoor)
+        if (inDoor && ContadorNiveles.Instance.GetNivelesC() >= levelName) 
         {
+
             doorTime -= Time.deltaTime;
+        }else {
+            Debug.Log("Puerta Bloqueada");
         }
 
         if(doorTime <= 0)
