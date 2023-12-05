@@ -7,6 +7,7 @@ public class PlayerRespawn : MonoBehaviour
 {
     public static PlayerRespawn Instance;
     public GameObject[] hearts;
+    public GameObject ganador;
     private int life;
     private float checkPointPositionX, checkPointPositionY;
     public Animator animator;
@@ -51,7 +52,8 @@ public class PlayerRespawn : MonoBehaviour
     public void PlayerDamagedFinal(float presiona)
     {
         if(presiona<0){
-            SceneManager.LoadScene(0);
+            Time.timeScale = 0;
+            ganador.gameObject.SetActive(true);
         }else{
             life -= 3;
             CheckLife();

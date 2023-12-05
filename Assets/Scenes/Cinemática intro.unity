@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "tiempoCinem\xE1tica": 160
-  escenaSalto: 0
+  escenaSalto: 1
 --- !u!320 &508677102
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -270,6 +270,8 @@ PlayableDirector:
     value: {fileID: 1107299390}
   - key: {fileID: -4654299081052144646, guid: 808be523d7e0b4143b8f014fe70c0063, type: 2}
     value: {fileID: 801478589}
+  - key: {fileID: 5700341757502913147, guid: 808be523d7e0b4143b8f014fe70c0063, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &508677103

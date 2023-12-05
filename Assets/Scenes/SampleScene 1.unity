@@ -618,6 +618,7 @@ MonoBehaviour:
   - {fileID: 97082674}
   - {fileID: 2065017789}
   - {fileID: 1745491754}
+  ganador: {fileID: 1400791419}
   animator: {fileID: 782819448}
 --- !u!1 &795279869
 GameObject:
@@ -2448,7 +2449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &1175120803
@@ -2567,6 +2568,11 @@ Transform:
   - {fileID: 1029370302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1400791419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7258256914101459368, guid: 364cae4bb5f754b499550e92d4ea19d6, type: 3}
+  m_PrefabInstance: {fileID: 901706664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1401869175
 GameObject:
   m_ObjectHideFlags: 0

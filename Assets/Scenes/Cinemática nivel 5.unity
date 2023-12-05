@@ -331,7 +331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "tiempoCinem\xE1tica": 106.83
-  escenaSalto: 0
 --- !u!95 &674156425
 Animator:
   serializedVersion: 5

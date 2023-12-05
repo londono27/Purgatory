@@ -33,6 +33,7 @@ public class FruitManager : MonoBehaviour
             Debug.Log("No quedan frutas");
             //levelCleared.gameObject.SetActive(true);
             transition.gameObject.SetActive(true);
+            ganador.gameObject.SetActive(true);
             ContadorNiveles.Instance.SetNivelesC(2);
             Debug.Log(ContadorNiveles.Instance.GetNivelesC());
             Invoke("ChangeScene", 1);

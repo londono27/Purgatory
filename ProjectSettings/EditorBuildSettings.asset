@@ -15,24 +15,30 @@ EditorBuildSettings:
     path: "Assets/Scenes/Negaci\xF3n.unity"
     guid: db7a5e124458c4243ab8785b73ea0633
   - enabled: 1
-    path: Assets/Scenes/ira.unity
-    guid: 4cc66af29fe272823bb44bdaac22a556
-  - enabled: 1
-    path: Assets/Scenes/SampleScene 1.unity
-    guid: 8e59e3825717ef945b24378645b61a6d
-  - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 1.unity"
     guid: d4a293695e5a86444a480c751770ed83
+  - enabled: 1
+    path: Assets/Scenes/ira.unity
+    guid: 4cc66af29fe272823bb44bdaac22a556
   - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 2.unity"
     guid: 063f1822c108f20478a9de29571ab460
   - enabled: 1
+    path: Assets/Scenes/Aqui va la escena del pirobo.unity
+    guid: 10b22e5fe25cdd347a541d0b4fe3e4af
+  - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 3.unity"
     guid: 9e9191dd49b58a14c8bff1be9d272f3f
+  - enabled: 1
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: 8e59e3825717ef945b24378645b61a6d
   - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 4.unity"
     guid: 7a633db4200ff3041ba2e19e60f57928
   - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 5.unity"
     guid: 0fb96aacb8cfbe2409769205ca05befd
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: f0ce1017ddaa88a40b31b94a77356417
   m_configObjects: {}
