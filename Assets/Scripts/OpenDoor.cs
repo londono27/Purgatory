@@ -7,6 +7,8 @@ public class OpenDoor : MonoBehaviour
 {
 
     public int levelName;
+    public GameObject puertaA;
+    public GameObject puertaB;
     private bool inDoor = false;
     private float doorTime = 2.5f;
     private float startTime = 2.5f;
@@ -17,9 +19,13 @@ public class OpenDoor : MonoBehaviour
             if (ContadorNiveles.Instance.GetNivelesC() >= levelName)
             {
                 inDoor = true;
+                puertaB.gameObject.SetActive(false);
+                puertaA.gameObject.SetActive(true);
                 Debug.Log(inDoor);
 
             }else{
+                puertaA.gameObject.SetActive(false);
+                puertaB.gameObject.SetActive(true);
                 Debug.Log("Puerta Bloqueada");
             }
         }
