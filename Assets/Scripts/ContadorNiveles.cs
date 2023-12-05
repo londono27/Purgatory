@@ -17,6 +17,8 @@ public class ContadorNiveles : MonoBehaviour
         // end of new code
 
         Instance = this;
+        nivelesC=2;
+        Debug.Log(nivelesC);
         DontDestroyOnLoad(gameObject);
     }
 
