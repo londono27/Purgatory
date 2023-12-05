@@ -9,6 +9,8 @@ public class UIManager : MonoBehaviour
     public AudioSource clip;
     public GameObject optionsPanel;
 
+    public GameObject ganador;
+
     public void OptionsPanel()
     {
         Time.timeScale = 0;
@@ -41,5 +43,10 @@ public class UIManager : MonoBehaviour
     public void PlaySoundButton()
     {
         clip.Play();
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

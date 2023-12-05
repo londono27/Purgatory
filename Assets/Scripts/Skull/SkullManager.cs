@@ -12,6 +12,7 @@ public class FruitManager : MonoBehaviour
     public Text totalFruits;
     public Text fruitsCollected;
     private int totalFruitsInLevel;
+    public GameObject ganador;
 
     private void Start()
     {
@@ -32,9 +33,10 @@ public class FruitManager : MonoBehaviour
             Debug.Log("No quedan frutas");
             //levelCleared.gameObject.SetActive(true);
             transition.gameObject.SetActive(true);
-            ContadorNiveles.Instance.SetNivelesC(1);
+            ContadorNiveles.Instance.SetNivelesC(2);
             Debug.Log(ContadorNiveles.Instance.GetNivelesC());
             Invoke("ChangeScene", 1);
+
         }
     }
 
@@ -42,11 +44,13 @@ public class FruitManager : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
-            SceneManager.LoadScene(0);
+            Time.timeScale = 0;
+            ganador.SetActive(true);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            
         }
     }
 }
