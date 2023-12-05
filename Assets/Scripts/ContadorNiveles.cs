@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ContadorNiveles : MonoBehaviour
 {
-    public int nivelesC = 1; 
+    public int nivelesC = 2; 
     public static ContadorNiveles Instance;
     private void Awake()
     {

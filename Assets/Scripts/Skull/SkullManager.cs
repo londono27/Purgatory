@@ -34,7 +34,7 @@ public class FruitManager : MonoBehaviour
             //levelCleared.gameObject.SetActive(true);
             transition.gameObject.SetActive(true);
             ganador.gameObject.SetActive(true);
-            ContadorNiveles.Instance.SetNivelesC(2);
+            ContadorNiveles.Instance.SetNivelesC(4);
             Debug.Log(ContadorNiveles.Instance.GetNivelesC());
             Invoke("ChangeScene", 1);
 

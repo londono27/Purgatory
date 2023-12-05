@@ -294,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4670758332159634955, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: levelName
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7729642655012635759, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: m_Name
@@ -341,6 +341,7 @@ MonoBehaviour:
   - {fileID: 285642425}
   - {fileID: 794499943}
   - {fileID: 680839417}
+  ganador: {fileID: 0}
   animator: {fileID: 317410414}
 --- !u!1001 &386354564
 PrefabInstance:
@@ -396,7 +397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4670758332159634955, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: levelName
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7729642655012635759, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: m_Name
@@ -5087,7 +5088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4670758332159634955, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: levelName
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7729642655012635759, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: m_Name
@@ -5502,7 +5503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4670758332159634955, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: levelName
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7729642655012635759, guid: 212a24b5d6d7439489a9d30b8af5cc79, type: 3}
       propertyPath: m_Name
