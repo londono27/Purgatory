@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 762445bdc5c7a334a86494a104fe6a3d
   - enabled: 1
-    path: Assets/Scenes/SampleScene 1.unity
-    guid: 8e59e3825717ef945b24378645b61a6d
-  - enabled: 1
     path: "Assets/Scenes/Negaci\xF3n.unity"
     guid: db7a5e124458c4243ab8785b73ea0633
   - enabled: 1
     path: Assets/Scenes/ira.unity
     guid: 4cc66af29fe272823bb44bdaac22a556
+  - enabled: 1
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: 8e59e3825717ef945b24378645b61a6d
   - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 1.unity"
     guid: d4a293695e5a86444a480c751770ed83

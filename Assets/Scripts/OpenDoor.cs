@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class OpenDoor : MonoBehaviour
 {
-    public Text text;
+
     public int levelName;
     private bool inDoor = false;
     private float doorTime = 2.5f;
@@ -14,15 +14,20 @@ public class OpenDoor : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            text.gameObject.SetActive(true);
-            inDoor = true;
-            Debug.Log(inDoor);
+            if (ContadorNiveles.Instance.GetNivelesC() >= levelName)
+            {
+                inDoor = true;
+                Debug.Log(inDoor);
+
+            }else{
+                Debug.Log("Puerta Bloqueada");
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        text.gameObject.SetActive(false);
+
         inDoor = false;
 
         doorTime = startTime;
@@ -31,17 +36,18 @@ public class OpenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inDoor)
+        if (inDoor && ContadorNiveles.Instance.GetNivelesC() >= levelName)
         {
             doorTime -= Time.deltaTime;
         }
 
-        if(doorTime <= 0)
+        if (doorTime <= 0)
         {
             SceneManager.LoadScene(levelName);
         }
 
-        if (inDoor && Input.GetKey("e")){
+        if (inDoor && Input.GetKey("e"))
+        {
             SceneManager.LoadScene(1);
         }
     }
