@@ -42,6 +42,7 @@ public class SkullManager2 : MonoBehaviour
             Debug.Log("No quedan frutas");
             transition.SetActive(true);
             ganador.SetActive(true);
+            ContadorNiveles.Instance.SetNivelesC(6);
             Invoke(nameof(ChangeScene), 1);
 
         }

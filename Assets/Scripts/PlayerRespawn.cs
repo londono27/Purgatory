@@ -53,6 +53,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         if(presiona<0){
             Time.timeScale = 0;
+            ContadorNiveles.Instance.SetNivelesC(8);
             ganador.gameObject.SetActive(true);
         }else{
             life -= 3;
