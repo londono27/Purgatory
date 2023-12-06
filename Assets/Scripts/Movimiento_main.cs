@@ -17,6 +17,7 @@ public class Movimiento_main : MonoBehaviour
     private bool enSuelo;
     private bool salto = false;
     private Animator animator;
+    private float xInicial, yInicial;
     // Start is called before the first frame update
     void Start()
     {
@@ -99,5 +100,8 @@ public class Movimiento_main : MonoBehaviour
         Vector3 escala = transform.localScale;
         escala.x *= -1;
         transform.localScale = escala;
+    }
+        public void Recolocar(){
+        transform.position = new Vector3(xInicial, yInicial, 0);
     }
 }
