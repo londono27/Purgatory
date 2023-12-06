@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class JumpBox : MonoBehaviour
 {
     public Animator animator;
@@ -18,7 +18,10 @@ public class JumpBox : MonoBehaviour
     private void Start()
     {
         skull.SetActive(false);
+        if (SceneManager.GetActiveScene().buildIndex != 4){
         skull.transform.SetParent(FindObjectOfType<FruitManager>().transform);
+        }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
