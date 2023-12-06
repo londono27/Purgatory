@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: "Assets/Scenes/Cinem\xE1tica nivel 2.unity"
     guid: 063f1822c108f20478a9de29571ab460
   - enabled: 1
-    path: Assets/Scenes/Aqui va la escena del pirobo.unity
-    guid: 10b22e5fe25cdd347a541d0b4fe3e4af
+    path: "Assets/Scenes/Depresi\xF3n.unity"
+    guid: bf13a12890c6cb7419a25d694ef5835d
   - enabled: 1
     path: "Assets/Scenes/Cinem\xE1tica nivel 3.unity"
     guid: 9e9191dd49b58a14c8bff1be9d272f3f
