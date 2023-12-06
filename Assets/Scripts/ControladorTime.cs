@@ -14,10 +14,11 @@ public class ControladorTime : MonoBehaviour
     public GameObject myobject;
     private float tiempoActual;
     private bool tiempoActivado = false;
-
+    private AudioSource soudIra;
     private void Start()
     {
         ActivarTemporizador();
+        soudIra = GetComponent<AudioSource>();
     }
     private void Update()
     {
@@ -44,6 +45,7 @@ public class ControladorTime : MonoBehaviour
     public void Ira()
     {
         Debug.Log("IRA ON, ESCONDETE!");
+        soudIra.Play();
         CinemachineMovimientoCamara.Instance.MoverCamara(5, 5, tiempoIra);
         
 

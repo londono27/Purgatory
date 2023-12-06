@@ -12,7 +12,12 @@ public class ArbustosSafe : MonoBehaviour
     private bool isKeyPressedRight;
     private bool isKeyPressedLeft;
     private bool isKeyBarra;
+    private AudioSource soudArbusto;
 
+    private void Start()
+    {
+        soudArbusto = GetComponent<AudioSource>();
+    }
     void Update()
     {
             if (!estadoPlayer & jugador != null)
@@ -23,11 +28,12 @@ public class ArbustosSafe : MonoBehaviour
                 if (isKeyPressedRight || isKeyPressedLeft || isKeyBarra)
                 {
                     estadoPlayer = true;//muere
-                    jugador.gameObject.SetActive(true); 
+                    jugador.gameObject.SetActive(true);
                 }
                 else
                 {
                     estadoPlayer = false;//vive
+                    
                     jugador.gameObject.SetActive(false); 
                 }
             }
@@ -48,6 +54,7 @@ public class ArbustosSafe : MonoBehaviour
             }
             else
             {
+                soudArbusto.Play();
                 estadoPlayer = false;
                 jugador.gameObject.SetActive(false);
             }
