@@ -7,7 +7,7 @@ using UnityEngine.Timeline;
 public class ArbustosSafe : MonoBehaviour
 {
     public static ArbustosSafe Instance;
-    public bool estadoPlayer =true;
+    private bool estadoPlayer =true;
     private Collider2D jugador = null;
     private bool isKeyPressedRight;
     private bool isKeyPressedLeft;
@@ -23,12 +23,12 @@ public class ArbustosSafe : MonoBehaviour
                 if (isKeyPressedRight || isKeyPressedLeft || isKeyBarra)
                 {
                     estadoPlayer = true;//muere
-                jugador.gameObject.SetActive(true); 
+                    jugador.gameObject.SetActive(true); 
                 }
                 else
                 {
                     estadoPlayer = false;//vive
-                jugador.gameObject.SetActive(false); 
+                    jugador.gameObject.SetActive(false); 
                 }
             }
         
