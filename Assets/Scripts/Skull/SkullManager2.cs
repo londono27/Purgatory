@@ -11,6 +11,8 @@ public class SkullManager2 : MonoBehaviour
     public Text levelCleared;
     public GameObject transition;
 
+    public GameObject reloj;
+
     public Text totalFruits;
     public Text fruitsCollected;
     private int totalFruitsInLevel;
@@ -49,8 +51,15 @@ public class SkullManager2 : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
+            DestroyRe();
             Time.timeScale = 0;
             ganador.SetActive(true);
         }
     }
+
+    public void DestroyRe()
+    {
+        Destroy(reloj.gameObject);
+    }
 }
+
